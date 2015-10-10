@@ -66,13 +66,13 @@ function bestiary_field_default_field_bases() {
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        'City' => 'City',
+        'Aquatic' => 'Aquatic',
         'Forest' => 'Forest',
         'Mountain' => 'Mountain',
-        'Ocean' => 'Ocean',
         'Outer Planes' => 'Outer Planes',
         'Plains' => 'Plains',
         'Swamp' => 'Swamp',
+        'Urban' => 'Urban',
       ),
       'allowed_values_function' => '',
     ),
