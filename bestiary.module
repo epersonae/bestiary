@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Bestiary feature.
+ */
+
+include_once 'bestiary.features.inc';
