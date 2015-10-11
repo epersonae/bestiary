@@ -99,6 +99,11 @@ function bestiary_views_default_views() {
   $handler->display->display_options['fields']['body']['settings'] = array(
     'trim_length' => '100',
   );
+  /* Field: Content: Environment */
+  $handler->display->display_options['fields']['field_environment']['id'] = 'field_environment';
+  $handler->display->display_options['fields']['field_environment']['table'] = 'field_data_field_environment';
+  $handler->display->display_options['fields']['field_environment']['field'] = 'field_environment';
+  $handler->display->display_options['fields']['field_environment']['delta_offset'] = '0';
   /* Sort criterion: Content: Title */
   $handler->display->display_options['sorts']['title']['id'] = 'title';
   $handler->display->display_options['sorts']['title']['table'] = 'node';
